@@ -92,3 +92,4 @@ print(k%7+1)
 
 k = int(input("k = "))
 print(k%7+1)
+
