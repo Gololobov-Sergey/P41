@@ -73,6 +73,7 @@ L = int(input("L, l = "))
 if L > 0:
     P = int(input("P, % = "))
     if P >= 0 and P <= 100:
+
         K2 = int(input("K2, ml = "))
     else:
         print("Error P")
