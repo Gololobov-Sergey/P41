@@ -98,22 +98,18 @@
 # ствующей указанной.
 
 
-D = int(input("Введите D: "))
-M = int(input("Введите M: "))
-
-D -= 1
-if D == 0:
-    M -= 1
-    match M:
-        case 4, 6, 9, 11: D = 30
-        case 2:           D = 28
-        case _:           D = 31
-
-if M == 0:
-    M = 12
-
-print(D, M)
-
-C
--1
-B
+# D = int(input("Введите D: "))
+# M = int(input("Введите M: "))
+#
+# D -= 1
+# if D == 0:
+#     M -= 1
+#     match M:
+#         case 4, 6, 9, 11: D = 30
+#         case 2:           D = 28
+#         case _:           D = 31
+#
+# if M == 0:
+#     M = 12
+#
+# print(D, M)
