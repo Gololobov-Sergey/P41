@@ -67,17 +67,18 @@
 #      s += s1
 #      print(round(s1+1 , k) , end=" ")
 
-s = 0
-for i in range(10000, 100000):
-    m = i
-    k = 0
-    while m > 0:
-        r = m % 10
-        if r == 5:
-            k += 1
-        m //= 10
-    if k == 3 and i % 9 == 0:
-        print(i, end=' ')
-        s += 1
-print()
-print(s)
+# s = 0
+# for i in range(10000, 100000):
+#     m = i
+#     k = 0
+#     while m > 0:
+#         r = m % 10
+#         if r == 5:
+#             k += 1
+#         m //= 10
+#     if k == 3 and i % 9 == 0:
+#         print(i, end=' ')
+#         s += 1
+# print()
+# print(s)
+
