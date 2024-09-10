@@ -49,3 +49,9 @@ import random
 l = int(input("len = "))
 list4 = [random.randint(0, 9) for i in range(l)]
 print(list4)
+p = 1
+for i in range(len(list4)-1, -1, -1):
+    # p *= list4[i]
+    print(list4[i])
+
+#print(p)

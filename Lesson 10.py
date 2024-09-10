@@ -23,7 +23,7 @@
 # print(c)
 
 
-n = 4
+n = 7
 for i in range(10**(n-1), 10**n):
     s = 0
     m = i
