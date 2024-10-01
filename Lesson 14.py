@@ -79,13 +79,28 @@ st2 = "papa"
 # print(string.ascii_uppercase)
 
 
-s = string.digits + string.ascii_letters
-l = [i for i in s]
-random.shuffle(l)
-password = "".join([random.choice(l) for _ in range(8)])
-print(password)
+# s = string.digits + string.ascii_letters
+# l = [i for i in s]
+# random.shuffle(l)
+# password = "".join([random.choice(l) for _ in range(8)])
+# print(password)
+#
+#
+# st = "iuoeirtuoerit"
+# for i in range(len(st)):
+#     print(" "*i*3, st[i], sep='')
 
 
-st = "iuoeirtuoerit"
-for i in range(len(st)):
-    print(" "*i*3, st[i], sep='')
+# st = "А роза упала на лапу Азора"
+# st1 = st.replace(" ", "").lower()
+# flag = True
+# for i in range(len(st1)//2):
+#     if st1[i] != st1[len(st1)-1-i]:
+#         flag = False
+#         break
+# print(flag)
+
+# l = [1,2,3,4,56]
+# l2 = [4,1]
+#
+# print(l2[0] in l)
