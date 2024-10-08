@@ -53,3 +53,42 @@ def isPrime(num):
 # Якщо число щасливе потрібно повернути з функції true,
 # якщо ні — false.
 
+
+def fact(n):
+    f = 1
+    for i in range(1, n + 1):
+        f *= i
+    return f
+
+def fact_r(n):
+    if n == 1:
+        return 1
+    return n * fact_r(n-1)
+
+def number(n):
+    if n == 0:
+        return
+    print(n, end=' ')
+    number(n-1)
+
+def num1(n):
+    if n > 1:
+        num1(n-1)
+    print(n, end=' ')
+
+def sum2(a, b):
+    if a == b:
+        return b
+    return a + sum2(a+1, b)
+
+
+def count(n):
+    if n == 0:
+        return 0
+    return n % 10 + count(n // 10)
+
+
+def fibo(n):
+    if n < 3:
+        return 1
+    return fibo(n-1) + fibo(n-2)
