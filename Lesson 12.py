@@ -14,7 +14,7 @@ import random
 # T = A
 # A = B
 # B = T
-
+[1,3,65,8,0]
 #list4.sort()
 #list4.insert(2, 999)
 #print(list4.index(9, 0,5))

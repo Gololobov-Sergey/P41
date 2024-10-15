@@ -1,12 +1,13 @@
-def printLine():
-    for i in range(50):
-        print("*", end='')
+def printLine(size=50, symbol='*'):
+    for i in range(size):
+        print(symbol, end='')
     print()
 
 
-def Sum(a, b):
+def Sum(a, b = 15):
     c = a + b
     return c
+
 
 
 def isEven(a):
@@ -92,3 +93,35 @@ def fibo(n):
     if n < 3:
         return 1
     return fibo(n-1) + fibo(n-2)
+
+def asc(a, b):
+    return a > b
+
+def desc(a, b):
+    return a < b
+
+def evenFirst(a, b):
+    if a % 2 == 0 and b % 2 == 1:
+        return False
+    if a % 2 == 1 and b % 2 == 0:
+        return True
+    return asc(a, b)
+
+
+def lastNumber(a, b):
+    if a % 10 > b % 10:
+        return True
+    if a % 10 == b % 10:
+        return asc(a, b)
+
+def bubbleSort(list_, method=asc):
+    for i in range(len(list_)-1):
+        for j in range(len(list_)-1-i):
+            if method(list_[j], list_[j+1]):
+                list_[j], list_[j+1] = list_[j+1], list_[j]
+
+def f(*args):
+    s = 0
+    for i in args:
+        s += i
+    return s
